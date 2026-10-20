@@ -1,0 +1,11 @@
+{
+  "chainId": 99801,
+  "rpc": "https://testnet-rpc.elysium.kinetiq.xyz",
+  "wallet": "0xaE35d4DC0385c34055e0B54d2D855669106C5778",
+  "fundedBalanceWei": "950000000000000000",
+  "contract": "0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB",
+  "deploymentTx": "0x1a0dfe1312a4a96ffcb388a53124035919eab09c08efd878295ea72d4a87b1cb",
+  "setTx": "0xcd3a2e9c19afb4480dfab09c1ff84e76a5e9321ad2cd6f5d2f723c7ce6c9294d",
+  "getResult": 42,
+  "explorer": "https://elysium.kinetiq.xyz/testnet-explorer/address/0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB"
+}
