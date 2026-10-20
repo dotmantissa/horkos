@@ -2,10 +2,10 @@
   "url": "https://horkos-oaths.vercel.app",
   "projectId": "prj_ZgyIPf1f3PnANtWCMpLppbnCyXSH",
   "teamSlug": "mantissas-projects",
-  "deploymentId": "dpl_CsMSa5stRTQHJPAQv4xqy61rEfXU",
-  "deploymentUrl": "https://horkos-7koibtgre-mantissas-projects.vercel.app",
+  "deploymentId": "dpl_643YL17zWQJSLDXortPheWuo6G5j",
+  "deploymentUrl": "https://horkos-esn94m53t-mantissas-projects.vercel.app",
   "defaultProductionUrl": "https://horkos-six.vercel.app",
-  "sourceCommit": "ec22e5e",
+  "sourceCommit": "a42aec5",
   "rootDirectory": "app",
   "framework": "nextjs",
   "nodeVersion": "22.x",
@@ -35,10 +35,10 @@
       "verdict": "Active",
       "chainId": 99801,
       "locked": "7500000000000000000",
-      "blockNumber": "12287078"
+      "blockNumber": "12308131"
     }
   },
-  "walletActions": "paused_pending_reported_metamask_domain_review",
+  "walletActions": "enabled_for_throwaway_testnet_demo_at_owner_request",
   "browserVerification": {
     "viewports": [
       "1440x1000",
@@ -53,5 +53,15 @@
     "publicPauseControl": "passed",
     "consoleErrors": 0,
     "screenshots": "visually inspected at all three widths"
+  },
+  "walletClassification": "reported_metamask_warning_unresolved",
+  "walletVerification": {
+    "provider": "simulated injected EIP1193 provider on deployed site",
+    "connection": "passed",
+    "addUnknownChain99801": "passed",
+    "wrongChainRejected": "passed",
+    "userRejectionHandled": "passed",
+    "signingRequestsOnConnect": 0,
+    "realMetamaskTransactions": "not executed by agent"
   }
 }
