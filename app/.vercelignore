@@ -2,7 +2,6 @@
 .env.*
 .sites-runtime/
 .wrangler/
-.openai/
 dist/
 node_modules/
 .next/

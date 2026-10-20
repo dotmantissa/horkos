@@ -12,7 +12,6 @@ app/.env
 app/.env.*
 app/.sites-runtime/
 app/.wrangler/
-app/.openai/
 app/dist/
 app/node_modules/
 app/.next/
