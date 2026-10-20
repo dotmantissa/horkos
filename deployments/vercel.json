@@ -2,10 +2,10 @@
   "url": "https://horkos-oaths.vercel.app",
   "projectId": "prj_ZgyIPf1f3PnANtWCMpLppbnCyXSH",
   "teamSlug": "mantissas-projects",
-  "deploymentId": "dpl_GEAdTrWCxGK1938hPDogr8MVfEZm",
-  "deploymentUrl": "https://horkos-hs7k1ruhk-mantissas-projects.vercel.app",
+  "deploymentId": "dpl_CsMSa5stRTQHJPAQv4xqy61rEfXU",
+  "deploymentUrl": "https://horkos-7koibtgre-mantissas-projects.vercel.app",
   "defaultProductionUrl": "https://horkos-six.vercel.app",
-  "sourceCommit": "556d80a",
+  "sourceCommit": "ec22e5e",
   "rootDirectory": "app",
   "framework": "nextjs",
   "nodeVersion": "22.x",
@@ -22,33 +22,36 @@
         "status": 200
       },
       {
-        "path": "/oath/1",
-        "status": 200
-      },
-      {
         "path": "/docs",
         "status": 200
       },
       {
-        "path": "/favicon.svg",
+        "path": "/oath/1",
         "status": 200
       }
     ],
     "verdict": {
       "status": 200,
-      "chainId": 99801,
-      "oathId": "1",
       "verdict": "Active",
+      "chainId": 99801,
       "locked": "7500000000000000000",
-      "blockNumber": "12245545"
-    },
-    "list": {
-      "status": 200,
-      "count": "2"
-    },
-    "detail": {
-      "status": 200,
-      "eventCount": 5
+      "blockNumber": "12287078"
     }
+  },
+  "walletActions": "paused_pending_reported_metamask_domain_review",
+  "browserVerification": {
+    "viewports": [
+      "1440x1000",
+      "820x1000",
+      "390x844"
+    ],
+    "publicIllustrationInteractions": "passed",
+    "publicLayout": "emitted CSS selectors, grid positioning and diagram containment passed",
+    "apiDataDuringBrowserChecks": "explicit fixture; live verdict verified separately",
+    "walletRequests": 0,
+    "reducedMotion": "passed",
+    "publicPauseControl": "passed",
+    "consoleErrors": 0,
+    "screenshots": "visually inspected at all three widths"
   }
 }
