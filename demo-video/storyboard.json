@@ -1,0 +1,62 @@
+[
+  {
+    "id": "intro",
+    "title": "Promises, made verifiable.",
+    "narration": "Meet Horkos. Built to complement Ascend with verifiable pledges around a token launcher’s trading-fee income."
+  },
+  {
+    "id": "problem",
+    "title": "Follow the fees.",
+    "narration": "Ascend creates ongoing fee income for token launchers. Horkos adds accountability: pledge that income, enforce deposited funds, and give holders public evidence."
+  },
+  {
+    "id": "create",
+    "title": "Make the oath.",
+    "narration": "Connect on Elysium Testnet. Enter a registered token. Choose vesting or burn, set immutable terms, and confirm. Creation deploys a vault and routes creator fees into it."
+  },
+  {
+    "id": "routing",
+    "title": "A trade. A fee. A vault.",
+    "narration": "Ascend’s default model inspires this mock flow. One thousand OATH of volume produces ten in fees. The launcher’s twenty-five percent share, two point five, reaches the vault."
+  },
+  {
+    "id": "vesting",
+    "title": "Time is the promise.",
+    "narration": "Vesting locks fees through a one-day cliff, then unlocks linearly through day thirty. Anyone can settle. The launcher cannot rewrite the terms."
+  },
+  {
+    "id": "burn",
+    "title": "A share, committed.",
+    "narration": "Burn settlement sends fifty percent to the dead address, and the rest to the launcher. A dead-address transfer leaves total supply unchanged."
+  },
+  {
+    "id": "record",
+    "title": "Inspect the public record.",
+    "narration": "Now the deployed records. Oath one holds seven point five OATH. Inspect its schedule, vault, checked block, and transaction history without connecting a wallet."
+  },
+  {
+    "id": "settled",
+    "title": "Settlement, on chain.",
+    "narration": "Oath two has settled three point seven five OATH to each destination. Its status remains Active because the commitment period is still running."
+  },
+  {
+    "id": "breach",
+    "title": "A broken promise leaves a mark.",
+    "narration": "Redirecting future fees permanently marks an oath Breached, even if routing is restored. Existing deposits retain their original terms. This scene illustrates that behavior."
+  },
+  {
+    "id": "api",
+    "title": "One verdict. Anyone can verify.",
+    "narration": "The public API exposes the verdict, amounts, checked block, and fee source. Other apps can verify the evidence without a wallet."
+  },
+  {
+    "id": "scope",
+    "title": "Real vaults. Mock fee source.",
+    "narration": "Real testnet vaults, mock fee routing. Tokens were deployed directly. Next, validate Ascend integration so its launchers can make these commitments around actual fee income."
+  },
+  {
+    "id": "close",
+    "title": "Make the pledge specific.",
+    "narration": "Ascend launches the token. Horkos makes the fee pledge verifiable. Inspect the pledge. Follow the fees."
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "intro",
+    "label": "HORKOS",
+    "title": "Your token. Your fees. Your word.",
+    "subtitle": "Trading-fee commitments for token launchers and their holders.",
+    "narration": "Horkos is a commitment system for people launching and operating tokens, and for the communities holding those tokens. It turns a promise about trading fee income into specific terms and evidence anyone can inspect."
+  },
+  {
+    "id": "context",
+    "label": "THE ECOSYSTEM",
+    "title": "Ascend launches. Horkos adds a pledge.",
+    "subtitle": "Elysium is the chain. Ascend is the launch platform.",
+    "narration": "Ascend is building token launch and lifecycle infrastructure on Elysium. Its design pays token deployers and approved operators a share of trading fees. Horkos is designed to add commitments about that income. Our demo tokens were deployed directly to the testnet, not launched through Ascend."
+  },
+  {
+    "id": "problem",
+    "label": "THE PROBLEM",
+    "title": "A statement is not a schedule.",
+    "subtitle": "Give holders something they can verify.",
+    "narration": "An operator can announce that fees will stay locked, or that a share will go to the dead address. Horkos gives that statement a vault, an immutable schedule, and a public record. It verifies fee handling, rather than rating the entire token as safe."
+  },
+  {
+    "id": "split",
+    "label": "FOLLOW THE MONEY",
+    "title": "The default fee split, made clear.",
+    "subtitle": "Illustration of our mock model. No swap or purchase occurs.",
+    "narration": "In the default model, one thousand units of trading volume creates a ten unit fee. The launcher receives one quarter of that fee: two point five units. Our mock routes that share into the pledge vault. It transfers only fees, and does not perform an actual swap."
+  },
+  {
+    "id": "create",
+    "label": "DAPP FLOW / 01",
+    "title": "Create a specific commitment.",
+    "subtitle": "Choose a token, a pledge type, and immutable terms.",
+    "narration": "In the dapp, the operator connects a throwaway wallet on Elysium Testnet, chain ninety nine thousand eight hundred and one. They select a registered demo token, choose vesting or burn, and set the terms. Creation records the oath and deploys its vault. This animation illustrates that workflow; it is not a new transaction recording."
+  },
+  {
+    "id": "fees",
+    "label": "DAPP FLOW / 02",
+    "title": "Fees arrive. The rules take over.",
+    "subtitle": "Deposited fees are governed by the original terms.",
+    "narration": "The mock hook directs the launcher share to the vault. Anyone can call settlement when money is available. The caller cannot choose a different destination or take the fees. Horkos enforces funds once they reach the vault; it cannot force every future fee to arrive."
+  },
+  {
+    "id": "vest",
+    "label": "DAPP FLOW / 03",
+    "title": "Lock first. Release over time.",
+    "subtitle": "One-day cliff. Thirty-day schedule.",
+    "narration": "The prepared vesting oath has received seven point five OATH. At the checked testnet block, all seven point five remain held and none have been released. Through the cliff, nothing unlocks. Fees then vest linearly through the original schedule. New deposits follow that same schedule."
+  },
+  {
+    "id": "burn",
+    "label": "DAPP FLOW / 04",
+    "title": "A defined share, sent away.",
+    "subtitle": "Fifty percent to the dead address. Fifty percent to the launcher.",
+    "narration": "The second prepared oath commits half of received fees to the dead address. Seven point five OATH arrived. Settlement paid three point seven five to the launcher, and three point seven five to the dead address. It still shows Active because its thirty day period has not ended. These transfers do not reduce total supply."
+  },
+  {
+    "id": "breach",
+    "label": "DAPP FLOW / 05",
+    "title": "Diversion leaves a permanent record.",
+    "subtitle": "Illustrated breach. Existing deposits stay bound.",
+    "narration": "If the operator changes the fee recipient after creating the oath, the registry permanently marks it Breached. Restoring the original recipient does not erase that history. Existing deposits remain subject to their terms. This scene illustrates the rule; neither prepared sample has been changed for this video."
+  },
+  {
+    "id": "records",
+    "label": "THE HOLDER VIEW",
+    "title": "Check the promise. Check the money.",
+    "subtitle": "Public records require no connected wallet.",
+    "narration": "A holder opens the oath page to inspect the pledge, held amounts, payouts, checked block, and event history. Active means the period or settlement is still in progress. Fulfilled means the period ended and received fees are settled at that checked block. Later deposits can require settlement again."
+  },
+  {
+    "id": "api",
+    "label": "PUBLIC API",
+    "title": "Evidence other tools can read.",
+    "subtitle": "GET /api/oath/<token-address>",
+    "narration": "The public A P I exposes the same evidence as structured data: token, oath, mode, status, raw amounts, and the checked block. It explicitly identifies the fee source as mock hook. A failed network read returns an error, rather than inventing a successful verdict."
+  },
+  {
+    "id": "evidence",
+    "label": "BUILT AND VERIFIED",
+    "title": "Real contracts. Clearly labeled simulation.",
+    "subtitle": "Deployed on Elysium Testnet. No mainnet claim.",
+    "narration": "The vaults and registry are real deployed testnet contracts. The fee source and OATH tokens are demo components. Thirty seven contract tests, four app tests, production builds, and responsive interface checks passed. This prototype is unaudited, and real Ascend integration is still unverified."
+  },
+  {
+    "id": "roadmap",
+    "label": "WHY THIS MATTERS",
+    "title": "A commitment layer for recurring income.",
+    "subtitle": "Validate routing first. Expand the evidence next.",
+    "narration": "For the hackathon, Horkos demonstrates a useful commitment primitive around token operator income. The next step is validating Ascend fee routing and recipient permissions with a real adapter. A listing reserve pledge and integrations for other verifier tools could build on that evidence."
+  },
+  {
+    "id": "end",
+    "label": "TRY THE DEMO",
+    "title": "A fee promise, with receipts.",
+    "subtitle": "horkos-oaths.vercel.app",
+    "narration": "Explore Horkos at horkos oaths dot vercel dot app, and inspect the source on GitHub. Wallet controls are enabled for the owner requested testnet demo, but the reported MetaMask warning remains unresolved. Public verification does not need a wallet."
+  }
+]

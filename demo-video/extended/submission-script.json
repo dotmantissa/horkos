@@ -1,0 +1,58 @@
+[
+  {
+    "id": "intro",
+    "label": "HORKOS",
+    "title": "Your token. Your fees. Your word.",
+    "subtitle": "Trading-fee commitments for token launchers and holders.",
+    "narration": "Horkos lets token launchers make verifiable commitments about their trading fee income. Holders can inspect the promise and the money without connecting a wallet."
+  },
+  {
+    "id": "context",
+    "label": "THE ECOSYSTEM",
+    "title": "Ascend launches. Horkos adds a pledge.",
+    "subtitle": "Elysium is the chain. Ascend is the launch platform.",
+    "narration": "Ascend is building token launch infrastructure on Elysium. Our demo tokens were deployed directly to the testnet. Real Ascend fee routing remains unverified."
+  },
+  {
+    "id": "split",
+    "label": "FOLLOW THE MONEY",
+    "title": "The default fee split, made clear.",
+    "subtitle": "Illustration of our mock model. No actual swap.",
+    "narration": "A thousand unit trade illustrates a ten unit fee. The launcher quarter share is two point five units, routed into a pledge vault. Our mock transfers fees only."
+  },
+  {
+    "id": "create",
+    "label": "DAPP FLOW",
+    "title": "Token. Pledge. Terms.",
+    "subtitle": "Connect on chain 99801, choose terms, confirm explicitly.",
+    "narration": "The dapp lets an operator select a token, choose vesting or burn, and set immutable terms. This animated workflow illustrates the interface; it does not claim a new transaction."
+  },
+  {
+    "id": "vest",
+    "label": "LIVE TESTNET RECORD",
+    "title": "Lock first. Release over time.",
+    "subtitle": "Prepared sample / one-day cliff / thirty-day duration.",
+    "narration": "The real vesting sample has received seven point five OATH, held under a one day cliff and thirty day schedule. Its deposits and events are public."
+  },
+  {
+    "id": "burn",
+    "label": "LIVE TESTNET RECORD",
+    "title": "A defined share, sent away.",
+    "subtitle": "Prepared sample / 50% dead-address allocation.",
+    "narration": "The burn sample settled three point seven five OATH to the launcher, and the same amount to the dead address. Its period is still Active."
+  },
+  {
+    "id": "breach",
+    "label": "THE COMMITMENT",
+    "title": "Diversion leaves a permanent record.",
+    "subtitle": "Illustration only. Deposited fees remain bound.",
+    "narration": "Changing the recipient permanently marks a pledge Breached, while existing deposits stay bound. This scene illustrates that rule; the samples remain unchanged."
+  },
+  {
+    "id": "api",
+    "label": "PUBLIC API",
+    "title": "Evidence other tools can read.",
+    "subtitle": "Amounts, verdict, checked block, explicit mock source.",
+    "narration": "Our A P I exposes amounts, status, and a checked block, with an explicit mock hook source. Next is validating real Ascend integration. Horkos makes fee promises inspectable."
+  }
+]
