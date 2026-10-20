@@ -1,0 +1,49 @@
+{
+  "chainId": 99801,
+  "rpc": "http://127.0.0.1:8547",
+  "source": "mock-hook",
+  "wallet": "0xaE35d4DC0385c34055e0B54d2D855669106C5778",
+  "contracts": {
+    "TestCoin": "0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB",
+    "MockFeeHook": "0x874Fd1C53B3A8B64275D39c92706Fd30e77035F5",
+    "HorkosRegistry": "0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3",
+    "BurnTestCoin": "0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2"
+  },
+  "transactions": {
+    "deploy:TestCoin": "0x87422b901283fa26379ebc0e029ccc6a52cee6f60ef56b2b11aa7af66874319c",
+    "deploy:MockFeeHook": "0xc21ad6e7fe4946dd272497ec061e60da8a169cc0d15b3a8fc3c449b04af0403c",
+    "deploy:HorkosRegistry": "0x3639a6aa19d6a7b3114b9d318daaaeceb76d85c2ec85466801de4af747dd2189",
+    "set-registry": "0xf58d71beab2f57f3f1f6d8ced3785b618f22da3f4ccd2f74ede78e0a48f83e16",
+    "deploy:BurnTestCoin": "0x82f21e960e2b6dde85ee0d1e02863d098bbeaa198c3e22f595a89b863a544ade",
+    "register:0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB": "0x173a08a59e265500de4f238a512dd3106dc18aff7662f29061d969160e47ddec",
+    "oath:0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB": "0x33c06a3f9480063d208d7e4237d7fd2c8cbf46fcd5246141e9d300ab8cf8ebfe",
+    "approve:0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB": "0x95d4d97c01c7e3346b5183c3c56cb8f405354935b92139712840e353eb209c71",
+    "trade:0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB:0": "0xbbe9fcfb9998bd920ebf3ffa89e67b61a0d92d8c9e781c951a3a0f8fc85f0146",
+    "trade:0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB:1": "0xe784e100b0c0d88ada4a1f85860307e20cb8a90c5e9448c79912d1914a9c35b0",
+    "trade:0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB:2": "0xfbe6225e04806680b569e01dc79cd84ba3cbac0adf5ac597b511efca071b616d",
+    "register:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2": "0x13982ed40d858f3cd3562886d1ff195d3a1d1c115be52ad232c19337e670f200",
+    "oath:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2": "0xb9c0db9f4078ee34a732bf950cb28b27f493d3e135fc468894fc7b9e72ee19aa",
+    "approve:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2": "0xdd6447c33d15754a51b04e954ec258bed8a87e72efc8d73e65a07b0cc2a4e23e",
+    "trade:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2:0": "0xba5c2aba966da2de3e3c8056e4bd0bd3e8b1124f0777eded788d88437372faed",
+    "trade:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2:1": "0xc187a174ed881529fe9ceaadbd246f89b71c96317b2f8dcc6e21afe2d6a4974c",
+    "trade:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2:2": "0xb92fad106c2cae4f4cec58c51d67ae9218a02391d00f31d6cef802c29967bcb2",
+    "settle:0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2": "0x84a0b15eae9e305faa14060ac9307c481a3793e4d6817ede009d04c3c663c3a8"
+  },
+  "samples": [
+    {
+      "oathId": 1,
+      "token": "0xEab6C3A71ecfa9A3235Ad6a915DC1C03387EE2bB",
+      "vault": "0x7bfe656e4B85De0841C232857302DA1D6f045Eb1",
+      "title": "30-day vesting oath",
+      "mode": "vest"
+    },
+    {
+      "oathId": 2,
+      "token": "0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2",
+      "vault": "0xe7F1434daD85AF397f1251A74595BAbF083a4a08",
+      "title": "50% burn oath",
+      "mode": "burn"
+    }
+  ],
+  "deploymentBlock": 1
+}

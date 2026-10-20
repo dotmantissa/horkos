@@ -1,0 +1,49 @@
+{
+  "chainId": 99801,
+  "rpc": "https://testnet-rpc.elysium.kinetiq.xyz",
+  "source": "mock-hook",
+  "wallet": "0xaE35d4DC0385c34055e0B54d2D855669106C5778",
+  "contracts": {
+    "TestCoin": "0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3",
+    "MockFeeHook": "0xcc1CaD93C0fE2EAC79dAb2c3647b8Ec0d77f2995",
+    "HorkosRegistry": "0xd3e9D3E82c2830250a4F9Ef62300A22C8419CFA2",
+    "BurnTestCoin": "0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313"
+  },
+  "transactions": {
+    "deploy:TestCoin": "0xfe91a37a426d363733ec832c379369e134c502b23651cb58100fb1e37f2210bf",
+    "deploy:MockFeeHook": "0x7dcc149cfdf4e3a3bb0dca5f4eff3879b2c3a8b64954413c53501c863de7b3fe",
+    "deploy:HorkosRegistry": "0x2c3085ce68386c45f7295ca3f5e8f91bab606b3b4832f2df11ed19611cedde44",
+    "set-registry": "0x99e1f953b2ffa992331511f767d65548592b276a7a2382c7507fdc272850c0e4",
+    "deploy:BurnTestCoin": "0xec7f05c15e2fd084fb5716dde5d913105a89579c3143d2a74d8df4dcf924087b",
+    "register:0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3": "0xd380c4a9cdc735e751f58973107a9f644a2f1e85b8c14178a0f0ea41b666ab62",
+    "oath:0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3": "0x8b93c4b9f7547c5780017f7adb09ddf29cb4a010e23413996660b0b4bb478a5a",
+    "approve:0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3": "0x354a1b0dee8577229ad74c9271ccf3fd024f7ffbbc2bc7ffe5f44655d68eac04",
+    "trade:0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3:0": "0xef2b65b4e7e820f630c44f3eda8f8e14db5d130df343faa6f194b68dd48b6791",
+    "trade:0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3:1": "0x66df576593a22cabce22dd21e665491883ef26a68179b62a4c05df8565398c90",
+    "trade:0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3:2": "0xdf29e4c5f7b69a131ff8643aa5f7d7a9a9756544b19fd242266f31b89e2d54d7",
+    "register:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313": "0xe8d53786103004adba8fb589eea68c540cc82e7edf91471bdc80654ccfe16f53",
+    "oath:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313": "0xf984141767539ef30817fd7d9c6e235ce317031f814651f2d5d947cf3306de60",
+    "approve:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313": "0xdf7bd8f4716e1ef2a3feae2cee6a163e9cacda7778b344bebea40288ce42f18b",
+    "trade:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313:0": "0x28a615a70a8d13d9bf54cae3070a72ed4230e9979544e7847d1b0d0bdafc4c99",
+    "trade:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313:1": "0x15c9fbd043d33a1f7c240bc5b2a757258d51d62c3c13fa087a6e77f9f71fd756",
+    "trade:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313:2": "0x9b4cba8acd807edfaa82f6e5606342e5f5777b0706adad2ec02a95426c9e9bed",
+    "settle:0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313": "0x06001ad5eb591e2e74548bfe241de884692a9eb2da93cf90ab775a834faa58c4"
+  },
+  "samples": [
+    {
+      "oathId": 1,
+      "token": "0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3",
+      "vault": "0x2a6f0B43A81CD7A468B3cbbD1B141aC3cF326d65",
+      "title": "30-day vesting oath",
+      "mode": "vest"
+    },
+    {
+      "oathId": 2,
+      "token": "0xD4D1C7CED7d4108e80B97b5d59B686A6E736c313",
+      "vault": "0x2e335158ce63c51648666DA70FdBF13982b70023",
+      "title": "50% burn oath",
+      "mode": "burn"
+    }
+  ],
+  "deploymentBlock": 12197002
+}
