@@ -13,7 +13,7 @@ Horkos makes creator fee pledges verifiable. A creator commits fees to vest over
 
 ## Current status
 
-Implemented: Foundry contracts and focused/fuzz tests, chain-guarded deployment tooling, two testnet sample oaths/trades, a Next.js-compatible app, live verdict API, and a read-only lens to reduce public RPC load. Check the repository README and current public URL before claiming publication in the final submission.
+Implemented: Foundry contracts and focused/fuzz tests, chain-guarded deployment tooling, two testnet sample oaths/trades, a Next.js-compatible app, live verdict API, and a read-only lens to reduce public RPC load. Public deployment is live; anonymous home/create/detail pages and the token verdict endpoint were verified with HTTP200. Contract tests:37 passing; app unit tests:4 passing; TypeScript and production build passing.
 
 Pending production work: confirm Ascend hook ABI/addresses and recipient permissions; validate adapter with a test launch; independent audit. No mainnet deployment.
 
