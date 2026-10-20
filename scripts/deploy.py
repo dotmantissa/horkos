@@ -107,6 +107,7 @@ def main():
     hook = deploy('MockFeeHook', 'src/MockFeeHook.sol:MockFeeHook', wallet)
     registry = deploy('HorkosRegistry', 'src/HorkosRegistry.sol:HorkosRegistry', hook)
     send('set-registry', hook, 'setRegistry(address)', registry)
+    deploy('HorkosLens', 'src/HorkosLens.sol:HorkosLens')
     burn_token = deploy('BurnTestCoin', 'src/TestCoin.sol:TestCoin')
     for token, mode, cliff, bps, title in [(vest_token, '0', '86400', '0', '30-day vesting oath'), (burn_token, '1', '0', '5000', '50% burn oath')]:
         send('register:' + token, hook, 'registerToken(address)', token)

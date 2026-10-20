@@ -996,3 +996,112 @@ export const horkosRegistryAbi = [
     "anonymous": false
   }
 ] as const;
+
+export const horkosLensAbi = [
+  {
+    "type": "function",
+    "name": "snapshot",
+    "inputs": [
+      {
+        "name": "registry",
+        "type": "address",
+        "internalType": "contract HorkosRegistry"
+      },
+      {
+        "name": "id",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "s",
+        "type": "tuple",
+        "internalType": "struct HorkosLens.Snapshot",
+        "components": [
+          {
+            "name": "token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "creator",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "vault",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "feeRecipient",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "status",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "mode",
+            "type": "uint8",
+            "internalType": "uint8"
+          },
+          {
+            "name": "start",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "cliff",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "end",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "burnBps",
+            "type": "uint16",
+            "internalType": "uint16"
+          },
+          {
+            "name": "released",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "burned",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalReceived",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "claimable",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "nextUnlock",
+            "type": "uint64",
+            "internalType": "uint64"
+          },
+          {
+            "name": "locked",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  }
+] as const;

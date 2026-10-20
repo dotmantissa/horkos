@@ -12,3 +12,5 @@ Horkos binds fees **after they reach the vault**. The demo hook is a mock. Ascen
 * Durations must be nonzero and at most ten years. Vest cliffs cannot exceed duration. Burn percentage must be 1–10,000 basis points. Registry terms are immutable.
 
 The JSON verdict exposes the checked block/time, raw integer token amounts, asset decimals, and `source: "mock-hook"`. RPC failure produces an unavailable response, never a fabricated Active verdict. Cached reads last five seconds.
+
+The deployed HorkosLens is a read-only aggregation helper, with no write methods or permissions. It returns all oath state fields in one eth_call so the app can work within public RPC limits. Event reads cover the known sample creation window and latest4000blocks, up to50 events; the explorer is the full history source.
