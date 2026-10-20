@@ -12,3 +12,4 @@ app/.next/
 app/.wrangler/
 *.tsbuildinfo
 outputs/
+.vercel/
