@@ -1,10 +1,16 @@
 # Horkos
 
-Creator fee promises, made verifiable on Elysium.
+Trading-fee pledges for token launchers and their holders on Elysium.
 
 **Live app:** https://horkos-oaths.vercel.app · **Network:** Elysium Testnet, chain **99801** · **Fee source:** labeled **mock-hook**.
 
-A creator pledges fees to vest over time or sends a percentage to the dead address. A vault enforces immutable terms for deposited fees. Holders inspect a public Active / Fulfilled / Breached verdict, amounts, event history, and a machine-readable API. Recipient changes permanently mark an oath Breached, including changes later reversed.
+Horkos is designed for the people and teams launching and operating tokens through Ascend, and for holders who want evidence about their fee promises. “Creator” means the token deployer or approved operator earning a share of token trading fees. Ascend is the launch platform; Elysium is the chain. The current demo's two OATH tokens were deployed directly to Elysium Testnet, not launched through Ascend.
+
+A launcher pledges fee income to vest over time or sends a percentage to the dead address. A vault enforces immutable terms for deposited fees. Holders inspect a public Active / Fulfilled / Breached verdict, amounts, event history, and a machine-readable API without connecting a wallet. Recipient changes permanently mark an oath Breached, including changes later reversed. A pledge verifies fee handling; it is not a safety rating for the token or its operator.
+
+The homepage includes a local interactive walkthrough of the default 1% fee / 25% launcher-share model. Slider, settlement-stage, burn/vest and diversion controls illustrate the mechanism without sending transactions. Animated fee paths have pause controls and respect reduced-motion settings. Illustrated values are separate from the live chain totals.
+
+**Wallet actions temporarily paused:** a user reported a MetaMask malicious-site classification in Brave. The cause remains unresolved. Read-only pages/API work, but the frontend blocks wallet requests and transaction controls until review. See [review evidence and handoff](docs/wallet-security-review.md). Do not bypass the warning or claim it is a confirmed false positive.
 
 ## Run and verify
 
