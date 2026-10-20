@@ -2,7 +2,7 @@
 
 Creator fee promises, made verifiable on Elysium.
 
-**Live app:** https://horkos.candidtuna3.chatgpt.site · **Network:** Elysium Testnet, chain **99801** · **Fee source:** labeled **mock-hook**.
+**Live app:** https://horkos-oaths.vercel.app · **Network:** Elysium Testnet, chain **99801** · **Fee source:** labeled **mock-hook**.
 
 A creator pledges fees to vest over time or sends a percentage to the dead address. A vault enforces immutable terms for deposited fees. Holders inspect a public Active / Fulfilled / Breached verdict, amounts, event history, and a machine-readable API. Recipient changes permanently mark an oath Breached, including changes later reversed.
 
@@ -19,7 +19,9 @@ npm test
 npm run dev
 ```
 
-The app uses Next.js App Router conventions through Vinext and deploys as a Cloudflare Worker using Sites. No database, indexer service, or paid RPC key is required. The public RPC is paced, reads share in-flight requests, verdicts cache for five seconds, and failures cool down for thirty seconds. Client polling stops on error. The production build is `npm run build` in `app/`.
+The app deploys to Vercel with native Next.js App Router. The existing Vinext target supports Cloudflare Workers through Sites. No database, indexer service, or paid RPC key is required. The public RPC is paced, reads share in-flight requests, verdicts cache for five seconds, and failures cool down for thirty seconds. Client polling stops on error. The Vercel production build is `npm run build:vercel` in `app/`; `npm run build` produces the Sites Worker build.
+
+Vercel project root is `app/`, framework Next.js, Node 22. Use `vercel deploy --prod --local-config app/vercel.json --scope mantissas-projects` from the repository root. Both root and app upload excludes protect local environment files. The app needs no server signing key; users sign testnet transactions in their own wallets. Public deployment details are recorded in [the Vercel manifest](deployments/vercel.json).
 
 ## Contracts and demo
 

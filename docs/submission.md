@@ -2,7 +2,7 @@
 
 Project: Horkos
 
-Live: https://horkos.candidtuna3.chatgpt.site
+Live: https://horkos-oaths.vercel.app
 Repository: https://github.com/dotmantissa/horkos
 Project X account: **user to supply**
 Demo video: **user to record using docs/demo.md and supply URL**

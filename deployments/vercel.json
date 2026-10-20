@@ -1,0 +1,54 @@
+{
+  "url": "https://horkos-oaths.vercel.app",
+  "projectId": "prj_ZgyIPf1f3PnANtWCMpLppbnCyXSH",
+  "teamSlug": "mantissas-projects",
+  "deploymentId": "dpl_GEAdTrWCxGK1938hPDogr8MVfEZm",
+  "deploymentUrl": "https://horkos-hs7k1ruhk-mantissas-projects.vercel.app",
+  "defaultProductionUrl": "https://horkos-six.vercel.app",
+  "sourceCommit": "556d80a",
+  "rootDirectory": "app",
+  "framework": "nextjs",
+  "nodeVersion": "22.x",
+  "status": "READY",
+  "verification": {
+    "baseUrl": "https://horkos-oaths.vercel.app",
+    "pages": [
+      {
+        "path": "/",
+        "status": 200
+      },
+      {
+        "path": "/create",
+        "status": 200
+      },
+      {
+        "path": "/oath/1",
+        "status": 200
+      },
+      {
+        "path": "/docs",
+        "status": 200
+      },
+      {
+        "path": "/favicon.svg",
+        "status": 200
+      }
+    ],
+    "verdict": {
+      "status": 200,
+      "chainId": 99801,
+      "oathId": "1",
+      "verdict": "Active",
+      "locked": "7500000000000000000",
+      "blockNumber": "12245545"
+    },
+    "list": {
+      "status": 200,
+      "count": "2"
+    },
+    "detail": {
+      "status": 200,
+      "eventCount": 5
+    }
+  }
+}

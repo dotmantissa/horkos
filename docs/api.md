@@ -26,5 +26,5 @@ Invalid addresses/IDs return 400, unregistered tokens/unknown oaths 404, and RPC
 Example:
 
 ```sh
-curl https://horkos.candidtuna3.chatgpt.site/api/oath/0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3
+curl https://horkos-oaths.vercel.app/api/oath/0xA7681A7c27613cC99c6Fe9b3b851F16CBC8eE5E3
 ```
