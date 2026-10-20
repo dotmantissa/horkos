@@ -10,7 +10,7 @@ A launcher pledges fee income to vest over time or sends a percentage to the dea
 
 The homepage includes a local interactive walkthrough of the default 1% fee / 25% launcher-share model. Slider, settlement-stage, burn/vest and diversion controls illustrate the mechanism without sending transactions. Animated fee paths have pause controls and respect reduced-motion settings. Illustrated values are separate from the live chain totals.
 
-**Wallet actions temporarily paused:** a user reported a MetaMask malicious-site classification in Brave. The cause remains unresolved. Read-only pages/API work, but the frontend blocks wallet requests and transaction controls until review. See [review evidence and handoff](docs/wallet-security-review.md). Do not bypass the warning or claim it is a confirmed false positive.
+**Wallet demo enabled:** wallet connection and explicit transaction controls are restored at the project owner’s request, guarded to chain 99801. Use only a throwaway testnet wallet. The reported MetaMask malicious-site classification in Brave remains unresolved; enabling the controls does not clear it. Read-only verification needs no wallet. See [review evidence and handoff](docs/wallet-security-review.md).
 
 ## Run and verify
 

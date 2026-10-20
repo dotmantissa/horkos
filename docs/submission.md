@@ -17,7 +17,7 @@ Implemented: Foundry contracts and focused/fuzz tests, chain-guarded deployment 
 
 Pending production work: confirm Ascend hook ABI/addresses and recipient permissions; validate adapter with a test launch; independent audit. No mainnet deployment.
 
-Current demo limitation: wallet controls are paused pending investigation of a reported MetaMask site classification in Brave. The public records and local interactive explanation remain available. Do not submit this draft as if wallet end-to-end QA or classification review were complete; see `docs/wallet-security-review.md`.
+Current demo limitation: a reported MetaMask site classification in Brave remains unresolved. Wallet controls are restored at the owner’s request for throwaway testnet use, with chain-99801 guards. Read-only records and the local illustration remain available. Do not claim real MetaMask end-to-end QA or classification review is complete; see `docs/wallet-security-review.md`.
 
 ## After launch
 

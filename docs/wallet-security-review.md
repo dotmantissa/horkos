@@ -2,7 +2,7 @@
 
 Status: unresolved. A user reported the **Malicious—flagged as unsafe** warning for `https://horkos-oaths.vercel.app` in Brave on October 20, 2026. The user connected a wallet; signing history and MetaMask version have not been provided. Do not classify this as a confirmed false positive.
 
-Wallet requests and transaction buttons are temporarily paused in the current frontend update. Read-only records and the local educational fee illustration need no wallet. The pause is applied inside the shared connection function as well as at the controls; it does not revoke an existing browser permission. Users can disconnect the site in their wallet. Do not advise disabling security alerts, bypassing the warning, or using another hostname to avoid it.
+Wallet connection and transaction controls were restored at the project owner’s explicit request for demo recording. This restoration does not clear the classification. Chain-99801 guards and explicit wallet confirmations remain in place; use only the original throwaway testnet wallet. Read-only records and the local illustration need no wallet. No report has been submitted and no alternate domain is being used to evade the warning.
 
 ## Evidence checked
 
@@ -26,4 +26,4 @@ MetaMask's [official guidance](https://support.metamask.io/configure/wallet/secu
 
 Public blocklist source: https://github.com/MetaMask/eth-phishing-detect/blob/main/src/config.json
 
-Restore wallet actions only after investigating the classification and verifying wallet behavior. The `walletActionsPaused` switch in `app/components/horkos.tsx` guards the shared connection function and all transaction controls; keep chain-99801 guards intact. Updating this document alone does not re-enable transactions.
+Wallet controls are currently enabled. Classification review remains a separate unresolved handoff. Do not describe the site as cleared by MetaMask without evidence from the provider.
